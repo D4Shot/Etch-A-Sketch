@@ -5,6 +5,7 @@
 :root {
   --grid-cols: 1;
   --grid-rows: 1;
+  --div-color: #364fc7;
 }
 
 .container {
@@ -16,6 +17,14 @@
 
 .grid-item {
   padding: 1em;
-  border: 1px solid #ddd;
+  border: 0.2px solid #ddd;
   text-align: center;
+}
+
+.grid-item:hover {
+  background-color: var(--div-color);
+}
+
+.visited {
+  background-color: black;
 }
